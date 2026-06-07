@@ -28,6 +28,13 @@
             "answer": {
                 "flag": "flag{much_reversing_very_ida_wow}"
             }
+        },
+        {
+            "name": "obfuscated-flag",
+            "binary_name": "crackme8",
+            "answer": {
+                "flag": "flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}"
+            }
         }
     ]
 }

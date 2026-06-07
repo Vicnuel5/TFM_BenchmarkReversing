@@ -1031,5 +1031,272 @@
                 "total_tools": 6
             }
         }
+    },
+    "obfuscated-flag": {
+        "radare2": {
+            "big-pickle": {
+                "date": "07/06/2026 15:03:07",
+                "success": true,
+                "resolved": true,
+                "tokens": "33,187",
+                "cost": "$0.00",
+                "attempts": {
+                    "01:22": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "ls": 1,
+                    "python3": 5
+                },
+                "total_comns": 6,
+                "tools": {
+                    "decompile_function": 4,
+                    "disassemble": 2,
+                    "disassemble_function": 3,
+                    "list_all_strings": 1,
+                    "list_functions": 2,
+                    "list_sections": 1,
+                    "list_strings": 2,
+                    "open_file": 2,
+                    "show_info": 2
+                },
+                "total_tools": 19
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 15:09:06",
+                "success": true,
+                "resolved": true,
+                "tokens": "28,040",
+                "cost": "$0.00",
+                "attempts": {
+                    "01:08": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "python3": 4
+                },
+                "total_comns": 4,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble": 1,
+                    "disassemble_function": 1,
+                    "list_functions": 1,
+                    "list_strings": 2,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "gpt-5.3-codex": {
+                "date": "07/06/2026 15:18:37",
+                "success": true,
+                "resolved": true,
+                "tokens": "17,441",
+                "cost": "$0.10",
+                "attempts": {
+                    "01:04": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "python3": 1,
+                    "xxd": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_sections": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "gpt-5.4-mini": {
+                "date": "07/06/2026 15:21:47",
+                "success": true,
+                "resolved": true,
+                "tokens": "19,322",
+                "cost": "$0.04",
+                "attempts": {
+                    "00:47": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "python3": 1,
+                    "rg": 2,
+                    "xxd": 1
+                },
+                "total_comns": 4,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_sections": 1,
+                    "list_strings": 1,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1,
+                    "xrefs_to": 2
+                },
+                "total_tools": 13
+            },
+            "claude-haiku-4.5": {
+                "date": "07/06/2026 15:24:21",
+                "success": true,
+                "resolved": true,
+                "tokens": "34,034",
+                "cost": "$0.12",
+                "attempts": {
+                    "01:15": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "grep": 2,
+                    "head": 1,
+                    "hexdump": 2,
+                    "ls": 1,
+                    "objdump": 1,
+                    "python3": 7,
+                    "tail": 1
+                },
+                "total_comns": 15,
+                "tools": {
+                    "calculate": 1,
+                    "decompile_function": 3,
+                    "disassemble_function": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 11
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "07/06/2026 15:26:33",
+                "success": true,
+                "resolved": true,
+                "tokens": "21,953",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:37": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "head": 1,
+                    "ls": 1,
+                    "objdump": 1,
+                    "python3": 1,
+                    "readelf": 1
+                },
+                "total_comns": 5,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 5
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 15:30:05",
+                "success": true,
+                "resolved": true,
+                "tokens": "26,416",
+                "cost": "$0.00",
+                "attempts": {
+                    "01:03": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "ls": 1,
+                    "python3": 2
+                },
+                "total_comns": 4,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 5
+            },
+            "gpt-5.3-codex": {
+                "date": "07/06/2026 15:33:43",
+                "success": true,
+                "resolved": true,
+                "tokens": "15,543",
+                "cost": "$0.08",
+                "attempts": {
+                    "00:43": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "rg": 1,
+                    "xxd": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "get_function_by_address": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 7
+            },
+            "gpt-5.4-mini": {
+                "date": "07/06/2026 15:36:27",
+                "success": true,
+                "resolved": true,
+                "tokens": "18,149",
+                "cost": "$0.04",
+                "attempts": {
+                    "00:33": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "objdump": 2,
+                    "python": 1,
+                    "readelf": 1,
+                    "rg": 1
+                },
+                "total_comns": 6,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "get_xrefs_to": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 7
+            },
+            "claude-haiku-4.5": {
+                "date": "07/06/2026 15:39:00",
+                "success": true,
+                "resolved": true,
+                "tokens": "22,160",
+                "cost": "$0.06",
+                "attempts": {
+                    "00:40": "{'flag': 'flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}'}"
+                },
+                "comns": {
+                    "grep": 2,
+                    "hexdump": 1,
+                    "objdump": 1,
+                    "python3": 5
+                },
+                "total_comns": 9,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 5
+            }
+        }
     }
 }
