@@ -1,0 +1,883 @@
+{
+    "simple-flag": {
+        "radare2": {
+            "big-pickle": {
+                "date": "06/06/2026 14:26:08",
+                "success": true,
+                "resolved": true,
+                "tokens": "20,893",
+                "attempts": {
+                    "00:44": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {},
+                "total_comns": 0,
+                "tools": {
+                    "analyze": 1,
+                    "decompile_function": 1,
+                    "disassemble_function": 1,
+                    "list_all_strings": 1,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:12:29",
+                "success": true,
+                "resolved": true,
+                "tokens": "20,197",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:28": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "python3": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 1,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_strings": 2,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 10
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 14:31:00",
+                "success": true,
+                "resolved": true,
+                "tokens": "13,533",
+                "attempts": {
+                    "00:20": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {},
+                "total_comns": 0,
+                "tools": {
+                    "decompile_function": 1,
+                    "disassemble_function": 1,
+                    "list_all_strings": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 8
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 14:45:24",
+                "success": true,
+                "resolved": true,
+                "tokens": "13,025",
+                "attempts": {
+                    "00:17": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "rg": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 1,
+                    "disassemble_function": 1,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 7
+            },
+            "claude-haiku-4.5": {
+                "date": "06/06/2026 14:59:17",
+                "success": true,
+                "resolved": true,
+                "tokens": "19,351",
+                "attempts": {
+                    "00:23": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "ls": 1,
+                    "python3": 1
+                },
+                "total_comns": 3,
+                "tools": {
+                    "decompile_function": 1,
+                    "disassemble_function": 1,
+                    "list_all_strings": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 8
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "06/06/2026 15:17:46",
+                "success": true,
+                "resolved": true,
+                "tokens": "17,307",
+                "attempts": {
+                    "00:28": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {
+                    "python3": 1
+                },
+                "total_comns": 1,
+                "tools": {
+                    "decompile_function": 1,
+                    "list_exports": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 4
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:14:13",
+                "success": true,
+                "resolved": true,
+                "tokens": "16,402",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:19": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {
+                    "ls": 1,
+                    "python3": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 1,
+                    "list_exports": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 4
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 15:19:49",
+                "success": true,
+                "resolved": true,
+                "tokens": "10,204",
+                "attempts": {
+                    "00:26": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {},
+                "total_comns": 0,
+                "tools": {
+                    "decompile_function": 1,
+                    "get_current_address": 1,
+                    "get_current_function": 1,
+                    "list_exports": 1,
+                    "list_imports": 1
+                },
+                "total_tools": 5
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 15:21:47",
+                "success": true,
+                "resolved": true,
+                "tokens": "11,240",
+                "attempts": {
+                    "00:15": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {},
+                "total_comns": 0,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 4
+            },
+            "claude-haiku-4.5": {
+                "date": "06/06/2026 15:26:37",
+                "success": true,
+                "resolved": true,
+                "tokens": "18,275",
+                "attempts": {
+                    "00:22": "{'flag': 'flag{not_that_kind_of_elf}'}"
+                },
+                "comns": {
+                    "python3": 1
+                },
+                "total_comns": 1,
+                "tools": {
+                    "decompile_function": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 3
+            }
+        }
+    },
+    "password-and-flag": {
+        "radare2": {
+            "big-pickle": {
+                "date": "06/06/2026 18:19:35",
+                "success": true,
+                "resolved": true,
+                "tokens": "29,405",
+                "attempts": {
+                    "01:51": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "python3": 2
+                },
+                "total_comns": 3,
+                "tools": {
+                    "analyze": 1,
+                    "decompile_function": 2,
+                    "disassemble_function": 2,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 10
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:26:40",
+                "success": true,
+                "resolved": true,
+                "tokens": "25,489",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:53": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "python3": 2
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble": 3,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 18:22:57",
+                "success": true,
+                "resolved": true,
+                "tokens": "17,649",
+                "attempts": {
+                    "00:34": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "python3": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 18:27:35",
+                "success": true,
+                "resolved": true,
+                "tokens": "19,768",
+                "attempts": {
+                    "01:49": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}@'}",
+                    "02:17": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "objdump": 2,
+                    "python3": 1,
+                    "rg": 3
+                },
+                "total_comns": 6,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_sections": 1,
+                    "list_strings": 3,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1,
+                    "xrefs_to": 1
+                },
+                "total_tools": 13
+            },
+            "claude-haiku-4.5": {
+                "date": "06/06/2026 18:37:02",
+                "success": true,
+                "resolved": true,
+                "tokens": "22,848",
+                "attempts": {
+                    "00:31": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "head": 1,
+                    "objdump": 2,
+                    "python3": 1
+                },
+                "total_comns": 4,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_all_strings": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 10
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "06/06/2026 18:42:53",
+                "success": true,
+                "resolved": true,
+                "tokens": "22,447",
+                "attempts": {
+                    "00:55": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "head": 1,
+                    "ls": 1,
+                    "objdump": 2,
+                    "python3": 1,
+                    "strings": 1,
+                    "xxd": 1
+                },
+                "total_comns": 8,
+                "tools": {
+                    "decompile_function": 2,
+                    "get_xrefs_to": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 6
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:23:09",
+                "success": true,
+                "resolved": true,
+                "tokens": "20,832",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:33": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "python3": 2,
+                    "readelf": 1,
+                    "xxd": 1
+                },
+                "total_comns": 5,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_data_items": 2,
+                    "list_exports": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 8
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 18:47:04",
+                "success": true,
+                "resolved": true,
+                "tokens": "17,037",
+                "attempts": {
+                    "01:00": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "python3": 1,
+                    "rg": 1
+                },
+                "total_comns": 3,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 2,
+                    "get_current_function": 1,
+                    "list_data_items": 1,
+                    "list_exports": 1,
+                    "list_imports": 1,
+                    "list_methods": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 10
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 18:51:40",
+                "success": true,
+                "resolved": true,
+                "tokens": "12,419",
+                "attempts": {
+                    "00:25": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "python": 1,
+                    "rg": 1
+                },
+                "total_comns": 3,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 4
+            },
+            "claude-haiku-4.5": {
+                "date": "06/06/2026 18:56:12",
+                "success": true,
+                "resolved": true,
+                "tokens": "28,079",
+                "attempts": {
+                    "00:55": "{'password': 'super_secret_password', 'flag': 'flag{if_i_submit_this_flag_then_i_will_get_points}'}"
+                },
+                "comns": {
+                    "dd": 2,
+                    "grep": 2,
+                    "head": 1,
+                    "hexdump": 4,
+                    "ls": 1,
+                    "python3": 3,
+                    "readelf": 2
+                },
+                "total_comns": 15,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 5
+            }
+        }
+    },
+    "ambiguous-flag": {
+        "radare2": {
+            "big-pickle": {
+                "date": "06/06/2026 19:09:30",
+                "success": true,
+                "resolved": true,
+                "tokens": "37,851",
+                "attempts": {
+                    "03:14": "{'input': 'HackCTF{4s_e45y_4s_Gt_g3s_s}'}",
+                    "03:18": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "python3": 5,
+                    "readelf": 1
+                },
+                "total_comns": 6,
+                "tools": {
+                    "analyze": 3,
+                    "calculate": 1,
+                    "close_file": 1,
+                    "decompile_function": 10,
+                    "disassemble": 7,
+                    "disassemble_function": 6,
+                    "list_entrypoints": 1,
+                    "list_functions": 4,
+                    "list_imports": 1,
+                    "list_sections": 1,
+                    "list_strings": 10,
+                    "open_file": 4,
+                    "show_info": 3
+                },
+                "total_tools": 52
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:33:58",
+                "success": true,
+                "resolved": true,
+                "tokens": "61,623",
+                "cost": "$0.00",
+                "attempts": {
+                    "03:25": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "grep": 1,
+                    "python3": 11,
+                    "xxd": 1
+                },
+                "total_comns": 13,
+                "tools": {
+                    "analyze": 2,
+                    "close_file": 2,
+                    "decompile_function": 6,
+                    "disassemble": 3,
+                    "disassemble_function": 2,
+                    "list_functions": 3,
+                    "list_sections": 1,
+                    "list_strings": 4,
+                    "list_symbols": 1,
+                    "open_file": 3,
+                    "rename_flag": 1,
+                    "show_info": 2,
+                    "xrefs_to": 2
+                },
+                "total_tools": 32
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 19:12:44",
+                "success": true,
+                "resolved": true,
+                "tokens": "16,462",
+                "attempts": {
+                    "00:40": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "rg": 1
+                },
+                "total_comns": 1,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 4,
+                    "list_all_strings": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "xrefs_to": 2
+                },
+                "total_tools": 13
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 19:15:20",
+                "success": true,
+                "resolved": true,
+                "tokens": "19,907",
+                "attempts": {
+                    "00:49": "{'input': 'HackCTF{4s_e45y_4s_Gt_g3s_s}'}",
+                    "01:29": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "objdump": 2,
+                    "python3": 2,
+                    "rg": 1
+                },
+                "total_comns": 5,
+                "tools": {
+                    "decompile_function": 3,
+                    "disassemble_function": 4,
+                    "get_function_prototype": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_function_details": 1,
+                    "xrefs_to": 3
+                },
+                "total_tools": 17
+            },
+            "claude-haiku-4.5": {
+                "date": "06/06/2026 19:22:34",
+                "success": true,
+                "resolved": true,
+                "tokens": "19,038",
+                "attempts": {
+                    "00:20": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "ls": 1
+                },
+                "total_comns": 1,
+                "tools": {
+                    "decompile_function": 1,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 6
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "06/06/2026 19:27:49",
+                "success": true,
+                "resolved": true,
+                "tokens": "35,788",
+                "attempts": {
+                    "01:29": "{'input': 'HackCTF{4s_e45y_4s_Gt_g3s_s}'}",
+                    "02:51": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "grep": 4,
+                    "objdump": 2,
+                    "python3": 2,
+                    "readelf": 3
+                },
+                "total_comns": 12,
+                "tools": {
+                    "decompile_function": 4,
+                    "disassemble_function": 5,
+                    "get_function_xrefs": 2,
+                    "get_xrefs_to": 2,
+                    "list_data_items": 4,
+                    "list_functions": 1,
+                    "list_strings": 2,
+                    "search_functions_by_name": 1
+                },
+                "total_tools": 21
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:39:47",
+                "success": true,
+                "resolved": true,
+                "tokens": "39,104",
+                "cost": "$0.00",
+                "attempts": {
+                    "02:19": "{'input': 'HackCTF{4s_e45y_4s_Gt_g3s_s}'}",
+                    "02:46": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "grep": 8,
+                    "head": 1,
+                    "ls": 1,
+                    "nm": 1,
+                    "objdump": 6,
+                    "python3": 7,
+                    "readelf": 7,
+                    "strings": 1,
+                    "xxd": 3
+                },
+                "total_comns": 36,
+                "tools": {
+                    "decompile_function": 4,
+                    "disassemble_function": 6,
+                    "get_function_xrefs": 1,
+                    "get_xrefs_to": 2,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "search_functions_by_name": 3
+                },
+                "total_tools": 19
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 19:30:28",
+                "success": true,
+                "resolved": true,
+                "tokens": "18,134",
+                "attempts": {
+                    "01:04": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "ls": 1
+                },
+                "total_comns": 1,
+                "tools": {
+                    "decompile_function": 7,
+                    "decompile_function_by_address": 2,
+                    "disassemble_function": 7,
+                    "get_xrefs_to": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 20
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 19:33:51",
+                "success": true,
+                "resolved": true,
+                "tokens": "13,743",
+                "attempts": {
+                    "00:26": "{'input': 'HackCTF{4s_e45y_4s_Gt_g3s_s}'}",
+                    "01:22": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "python": 2,
+                    "rg": 1
+                },
+                "total_comns": 3,
+                "tools": {
+                    "decompile_function": 3,
+                    "disassemble_function": 1,
+                    "get_function_xrefs": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 7
+            },
+            "claude-haiku-4.5": {
+                "date": "06/06/2026 19:42:02",
+                "success": true,
+                "resolved": true,
+                "tokens": "28,531",
+                "attempts": {
+                    "00:44": "{'input': 'HackCTF{4s_e45y_4s_Gt_g3s_s}'}",
+                    "01:40": "{'input': 'OfdlDSA|3tXb32~X3tX@sX`4tXtz'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "grep": 5,
+                    "head": 1,
+                    "ls": 1,
+                    "nm": 1,
+                    "objdump": 3,
+                    "python3": 5,
+                    "readelf": 1,
+                    "xxd": 1
+                },
+                "total_comns": 19,
+                "tools": {
+                    "decompile_function": 4,
+                    "disassemble_function": 3,
+                    "get_function_xrefs": 1,
+                    "get_xrefs_to": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1
+                },
+                "total_tools": 11
+            }
+        }
+    },
+    "flag-": {
+        "radare2": {
+            "big-pickle": {
+                "date": "06/06/2026 20:22:53",
+                "success": true,
+                "resolved": true,
+                "tokens": "29,433",
+                "attempts": {
+                    "01:10": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "python3": 1,
+                    "xxd": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble": 1,
+                    "disassemble_function": 1,
+                    "list_functions": 1,
+                    "list_sections": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 12:45:09",
+                "success": true,
+                "resolved": true,
+                "tokens": "31,940",
+                "cost": "$0.00",
+                "attempts": {
+                    "01:02": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "python3": 1,
+                    "xxd": 2
+                },
+                "total_comns": 3,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble": 1,
+                    "disassemble_function": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_sections": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 11
+            },
+            "gpt-5.3-codex": {
+                "date": "06/06/2026 20:20:47",
+                "success": true,
+                "resolved": true,
+                "tokens": "17,795",
+                "attempts": {
+                    "01:12": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "file": 1
+                },
+                "total_comns": 1,
+                "tools": {
+                    "decompile_function": 1,
+                    "disassemble": 1,
+                    "disassemble_function": 1,
+                    "list_decompilers": 1,
+                    "list_functions": 1,
+                    "list_sections": 1,
+                    "list_strings": 1,
+                    "list_symbols": 1,
+                    "open_file": 1
+                },
+                "total_tools": 9
+            },
+            "gpt-5.4-mini": {
+                "date": "06/06/2026 20:25:49",
+                "success": true,
+                "resolved": true,
+                "tokens": "23,649",
+                "attempts": {
+                    "00:56": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "readelf": 1,
+                    "rg": 3
+                },
+                "total_comns": 5,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble": 1,
+                    "disassemble_function": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_sections": 1,
+                    "list_strings": 2,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1,
+                    "xrefs_to": 1
+                },
+                "total_tools": 15
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "tasks": [
+        {
+            "name": "simple-flag",
+            "binary_name": "crackme1",
+            "answer": {
+                "flag": "flag{not_that_kind_of_elf}"
+            }
+        },
+        {
+            "name": "password-and-flag",
+            "binary_name": "crackme2",
+            "answer": {
+                "password": "super_secret_password",
+                "flag": "flag{if_i_submit_this_flag_then_i_will_get_points}"
+            }
+        },
+        {
+            "name": "ambiguous-flag",
+            "binary_name": "crackme5",
+            "answer": {
+                "input": "OfdlDSA|3tXb32~X3tX@sX`4tXtz"
+            }
+        },
+        {
+            "name": "flag-",
+            "binary_name": "crackme7",
+            "answer": {
+                "flag": "flag{much_reversing_very_ida_wow}"
+            }
+        }
+    ]
+}
