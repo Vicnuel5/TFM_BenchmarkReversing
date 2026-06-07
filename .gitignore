@@ -4,3 +4,4 @@ __pycache__/
 bin/
 prmopts/
 process_benchmark.py
+process_cost.py
