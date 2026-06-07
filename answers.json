@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "flag-",
+            "name": "hidden-menu-flag",
             "binary_name": "crackme7",
             "answer": {
                 "flag": "flag{much_reversing_very_ida_wow}"

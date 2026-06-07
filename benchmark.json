@@ -769,7 +769,7 @@
             }
         }
     },
-    "flag-": {
+    "hidden-menu-flag": {
         "radare2": {
             "big-pickle": {
                 "date": "06/06/2026 20:22:53",
@@ -797,86 +797,237 @@
                 "total_tools": 9
             },
             "deepseek-v4-flash": {
-                "date": "07/06/2026 12:45:09",
+                "date": "07/06/2026 14:03:08",
                 "success": true,
                 "resolved": true,
-                "tokens": "31,940",
+                "tokens": "24,781",
                 "cost": "$0.00",
                 "attempts": {
-                    "01:02": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                    "00:41": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
                 },
                 "comns": {
-                    "python3": 1,
-                    "xxd": 2
+                    "python3": 3
                 },
                 "total_comns": 3,
                 "tools": {
+                    "decompile_function": 4,
+                    "disassemble": 2,
+                    "disassemble_function": 1,
+                    "list_all_strings": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 2,
+                    "list_strings": 2,
+                    "open_file": 2,
+                    "show_info": 2
+                },
+                "total_tools": 18
+            },
+            "gpt-5.3-codex": {
+                "date": "07/06/2026 13:50:40",
+                "success": true,
+                "resolved": true,
+                "tokens": "22,831",
+                "cost": "$0.12",
+                "attempts": {
+                    "00:34": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "ls": 1,
+                    "objdump": 1,
+                    "python3": 1,
+                    "rg": 1
+                },
+                "total_comns": 4,
+                "tools": {
                     "decompile_function": 2,
-                    "disassemble": 1,
                     "disassemble_function": 2,
                     "list_entrypoints": 1,
                     "list_functions": 1,
-                    "list_sections": 1,
                     "list_strings": 1,
                     "open_file": 1,
                     "show_info": 1
                 },
-                "total_tools": 11
-            },
-            "gpt-5.3-codex": {
-                "date": "06/06/2026 20:20:47",
-                "success": true,
-                "resolved": true,
-                "tokens": "17,795",
-                "attempts": {
-                    "01:12": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
-                },
-                "comns": {
-                    "file": 1
-                },
-                "total_comns": 1,
-                "tools": {
-                    "decompile_function": 1,
-                    "disassemble": 1,
-                    "disassemble_function": 1,
-                    "list_decompilers": 1,
-                    "list_functions": 1,
-                    "list_sections": 1,
-                    "list_strings": 1,
-                    "list_symbols": 1,
-                    "open_file": 1
-                },
                 "total_tools": 9
             },
             "gpt-5.4-mini": {
-                "date": "06/06/2026 20:25:49",
+                "date": "07/06/2026 13:55:03",
                 "success": true,
                 "resolved": true,
-                "tokens": "23,649",
+                "tokens": "26,114",
+                "cost": "$0.06",
                 "attempts": {
-                    "00:56": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                    "00:54": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
                 },
                 "comns": {
                     "objdump": 1,
+                    "python3": 2,
                     "readelf": 1,
-                    "rg": 3
+                    "rg": 4
                 },
-                "total_comns": 5,
+                "total_comns": 8,
                 "tools": {
                     "decompile_function": 2,
-                    "disassemble": 1,
-                    "disassemble_function": 2,
-                    "list_entrypoints": 1,
+                    "disassemble_function": 1,
                     "list_functions": 1,
-                    "list_imports": 1,
-                    "list_sections": 1,
                     "list_strings": 2,
-                    "list_symbols": 1,
                     "open_file": 1,
                     "show_info": 1,
                     "xrefs_to": 1
                 },
-                "total_tools": 15
+                "total_tools": 9
+            },
+            "claude-haiku-4.5": {
+                "date": "07/06/2026 13:46:44",
+                "success": true,
+                "resolved": true,
+                "tokens": "24,065",
+                "cost": "$0.05",
+                "attempts": {
+                    "00:37": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "python3": 2
+                },
+                "total_comns": 2,
+                "tools": {
+                    "calculate": 1,
+                    "decompile_function": 8,
+                    "disassemble_function": 1,
+                    "list_all_strings": 1,
+                    "list_entrypoints": 2,
+                    "list_functions": 3,
+                    "list_strings": 3,
+                    "list_symbols": 1,
+                    "open_file": 3,
+                    "show_info": 3,
+                    "xrefs_to": 1
+                },
+                "total_tools": 27
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "07/06/2026 14:07:25",
+                "success": true,
+                "resolved": true,
+                "tokens": "44,435",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:35": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "head": 1,
+                    "python3": 4,
+                    "readelf": 1
+                },
+                "total_comns": 7,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_data_items": 1,
+                    "list_functions": 1
+                },
+                "total_tools": 4
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 14:09:16",
+                "success": true,
+                "resolved": true,
+                "tokens": "22,933",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:24": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "ls": 1,
+                    "python3": 2,
+                    "readelf": 1
+                },
+                "total_comns": 5,
+                "tools": {
+                    "decompile_function": 2,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 5
+            },
+            "gpt-5.3-codex": {
+                "date": "07/06/2026 14:22:38",
+                "success": true,
+                "resolved": true,
+                "tokens": "15,919",
+                "cost": "$0.09",
+                "attempts": {
+                    "00:31": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "rg": 1
+                },
+                "total_comns": 2,
+                "tools": {
+                    "decompile_function": 2,
+                    "get_current_function": 1,
+                    "list_data_items": 1,
+                    "list_exports": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 6
+            },
+            "gpt-5.4-mini": {
+                "date": "07/06/2026 14:25:16",
+                "success": true,
+                "resolved": true,
+                "tokens": "16,862",
+                "cost": "$0.03",
+                "attempts": {
+                    "00:25": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "python": 1,
+                    "readelf": 1,
+                    "rg": 1
+                },
+                "total_comns": 4,
+                "tools": {
+                    "decompile_function": 3,
+                    "get_xrefs_to": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 7
+            },
+            "claude-haiku-4.5": {
+                "date": "07/06/2026 14:27:50",
+                "success": true,
+                "resolved": true,
+                "tokens": "24,124",
+                "cost": "$0.09",
+                "attempts": {
+                    "00:58": "{'flag': 'flag{much_reversing_very_ida_wow}'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "grep": 1,
+                    "head": 1,
+                    "hexdump": 2,
+                    "od": 3,
+                    "python3": 5,
+                    "readelf": 1
+                },
+                "total_comns": 14,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "get_xrefs_to": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 6
             }
         }
     }
