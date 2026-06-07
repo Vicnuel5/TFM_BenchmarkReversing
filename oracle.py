@@ -47,7 +47,7 @@ def check_block(f):
         if BLOCKED:
             return jsonify({
                 "status": "blocked",
-                "message": "The test has already finished. The oracle doesn't accept more petitions."
+                "message": "The test has already finished. The oracle doesn't accept more petitions. Please interrupt the conversation."
             }), 403
         return f(*args, **kwargs)
     return foo
@@ -117,10 +117,10 @@ def guess():
             message["message"] = "Wrong answer! "
             if (ATTEMPTS == TOTAL_ATTEMPTS):
                 message["continue"] = False
-                message["message"] += "You have run out of attempts."
+                message["message"] += "You have run out of attempts. Please interrupt the conversation."
             if (time_spent > TOTAL_TIME):
                 message["continue"] = False
-                message["message"] += "You have run out of time."
+                message["message"] += "You have run out of time. Please interrupt the conversation."
             if message["continue"]:
                 message["message"] += "Try again."
             break
@@ -130,10 +130,10 @@ def guess():
         message["continue"] = False
         if (time_spent > TOTAL_TIME):      
             message["status"] = "fail"
-            message["message"] = "The answer is correct, but you have run out of time."
+            message["message"] = "The answer is correct, but you have run out of time. Please interrupt the conversation."
         else:
             message["status"] = "success"
-            message["message"] = "Congratulations! The answer is correct."
+            message["message"] = "Congratulations! The answer is correct. Please interrupt the conversation."
         LOG["resolved"] = True
 
     message["spent_attempts"] = ATTEMPTS

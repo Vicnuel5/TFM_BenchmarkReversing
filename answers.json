@@ -35,6 +35,13 @@
             "answer": {
                 "flag": "flag{at_least_this_cafe_wont_leak_your_credit_card_numbers}"
             }
+        },
+        {
+            "name": "secret-key",
+            "binary_name": "razkom_v1",
+            "answer": {
+                "key": "RAR-AAA-ZAZ-KAK-OAO-MAM"
+            }
         }
     ]
 }

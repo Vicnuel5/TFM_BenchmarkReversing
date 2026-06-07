@@ -1298,5 +1298,307 @@
                 "total_tools": 5
             }
         }
+    },
+    "secret-key": {
+        "radare2": {
+            "big-pickle": {
+                "date": "07/06/2026 20:12:05",
+                "success": false,
+                "resolved": false,
+                "tokens": "83,598",
+                "cost": "$0.00",
+                "attempts": {
+                    "02:48": "{'key': 'RAZ-AAA-AZZ-A1K-A5O-A3M'}",
+                    "03:38": "{'key': 'A8R-AAA-AZZ-A1K-A5O-A3M'}",
+                    "04:32": "{'key': 'RAR-AAA-AZZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "head": 3,
+                    "r2": 8,
+                    "xxd": 2
+                },
+                "total_comns": 13,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble": 6,
+                    "disassemble_function": 2,
+                    "list_functions": 1,
+                    "list_strings": 2,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 15
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 20:03:18",
+                "success": false,
+                "resolved": true,
+                "tokens": "110,578",
+                "cost": "$0.00",
+                "attempts": {
+                    "09:20": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "cat": 1,
+                    "chmod": 1,
+                    "file": 1,
+                    "ls": 1,
+                    "python3": 15,
+                    "xxd": 1
+                },
+                "total_comns": 20,
+                "tools": {
+                    "decompile_function": 5,
+                    "disassemble": 10,
+                    "disassemble_function": 6,
+                    "list_all_strings": 1,
+                    "list_entrypoints": 3,
+                    "list_functions": 3,
+                    "list_sections": 3,
+                    "list_strings": 7,
+                    "open_file": 3,
+                    "show_info": 3
+                },
+                "total_tools": 44
+            },
+            "gpt-5.3-codex": {
+                "date": "07/06/2026 20:26:45",
+                "success": true,
+                "resolved": true,
+                "tokens": "23,774",
+                "cost": "$0.18",
+                "attempts": {
+                    "01:42": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "python3": 3,
+                    "rg": 1
+                },
+                "total_comns": 4,
+                "tools": {
+                    "analyze": 1,
+                    "decompile_function": 2,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_sections": 1,
+                    "list_strings": 2,
+                    "open_file": 1
+                },
+                "total_tools": 10
+            },
+            "gpt-5.4-mini": {
+                "date": "07/06/2026 20:34:00",
+                "success": true,
+                "resolved": true,
+                "tokens": "54,342",
+                "cost": "$0.20",
+                "attempts": {
+                    "03:45": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "cut": 2,
+                    "grep": 1,
+                    "head": 2,
+                    "ip": 3,
+                    "objdump": 3,
+                    "python3": 7,
+                    "rg": 1,
+                    "xxd": 2
+                },
+                "total_comns": 21,
+                "tools": {
+                    "decompile_function": 7,
+                    "disassemble": 3,
+                    "disassemble_function": 3,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_imports": 1,
+                    "list_strings": 4,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1,
+                    "xrefs_to": 1
+                },
+                "total_tools": 24
+            },
+            "claude-haiku-4.5": {
+                "date": "07/06/2026 20:39:59",
+                "success": false,
+                "resolved": false,
+                "tokens": "53,129",
+                "cost": "$0.28",
+                "attempts": {
+                    "00:39": "{'key': 'ARR-AAA-AZZ-AKK-AOO-AMM'}",
+                    "02:20": "{'key': 'ARR-AAA-AZZ-AKK-AOO-AMM'}",
+                    "02:28": "{'key': 'BQR-BZA-BYZ-BJK-BNO-BLM'}"
+                },
+                "comns": {
+                    "cat": 4,
+                    "find_all_combin": 1,
+                    "find_key": 1,
+                    "gcc": 4,
+                    "grep": 3,
+                    "head": 1,
+                    "ip": 2,
+                    "ls": 1,
+                    "objdump": 1,
+                    "python3": 9,
+                    "sh": 1,
+                    "sshd-auth": 1,
+                    "test_checksum": 1,
+                    "uname": 1,
+                    "unix_chkpwd": 1,
+                    "verify_key": 1
+                },
+                "total_comns": 33,
+                "tools": {
+                    "decompile_function": 3,
+                    "disassemble": 2,
+                    "disassemble_function": 1,
+                    "list_entrypoints": 1,
+                    "list_sections": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 11
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "07/06/2026 20:50:55",
+                "success": true,
+                "resolved": true,
+                "tokens": "44,786",
+                "cost": "$0.00",
+                "attempts": {
+                    "03:19": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "python3": 6
+                },
+                "total_comns": 7,
+                "tools": {
+                    "decompile_function": 15,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 18
+            },
+            "deepseek-v4-flash": {
+                "date": "07/06/2026 21:09:25",
+                "success": false,
+                "resolved": true,
+                "tokens": "99,192",
+                "cost": "$0.00",
+                "attempts": {
+                    "08:08": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "python3": 14
+                },
+                "total_comns": 15,
+                "tools": {
+                    "decompile_function": 23,
+                    "list_data_items": 3,
+                    "list_functions": 2,
+                    "list_strings": 2
+                },
+                "total_tools": 30
+            },
+            "gpt-5.3-codex": {
+                "date": "07/06/2026 21:22:18",
+                "success": true,
+                "resolved": true,
+                "tokens": "23,721",
+                "cost": "$0.14",
+                "attempts": {
+                    "01:49": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "ls": 1,
+                    "objdump": 1,
+                    "python3": 4
+                },
+                "total_comns": 6,
+                "tools": {
+                    "decompile_function_by_address": 6,
+                    "disassemble_function": 1,
+                    "get_current_address": 1,
+                    "get_current_function": 1,
+                    "list_data_items": 1,
+                    "list_exports": 1,
+                    "list_functions": 1
+                },
+                "total_tools": 12
+            },
+            "gpt-5.4-mini": {
+                "date": "07/06/2026 21:32:23",
+                "success": false,
+                "resolved": true,
+                "tokens": "36,090",
+                "cost": "$0.31",
+                "attempts": {
+                    "07:00": "{'key': 'RAR-AAA-ZAZ-KAK-OAO-MAM'}"
+                },
+                "comns": {
+                    "file": 1,
+                    "grep": 1,
+                    "objcopy": 2,
+                    "objdump": 1,
+                    "python3": 18,
+                    "rg": 1,
+                    "sed": 1,
+                    "strings": 1
+                },
+                "total_comns": 26,
+                "tools": {
+                    "decompile_function": 4,
+                    "get_function_xrefs": 2,
+                    "get_xrefs_to": 3,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 12
+            },
+            "claude-haiku-4.5": {
+                "date": "07/06/2026 21:40:24",
+                "success": false,
+                "resolved": false,
+                "tokens": "38,097",
+                "cost": "$0.16",
+                "attempts": {
+                    "00:36": "{'key': '3FR-08A-07Z-0BK-0FO-0DM'}",
+                    "01:07": "{'key': '4ER-08A-07Z-0BK-0FO-0DM'}",
+                    "01:53": "{'key': '1CM-17A-16Z-19K-1EO-0DM'}"
+                },
+                "comns": {
+                    "file": 2,
+                    "grep": 1,
+                    "head": 1,
+                    "hexdump": 3,
+                    "ls": 2,
+                    "objdump": 1,
+                    "python3": 10,
+                    "strings": 1,
+                    "tail": 2,
+                    "xxd": 1
+                },
+                "total_comns": 24,
+                "tools": {
+                    "decompile_function": 4,
+                    "disassemble_function": 1,
+                    "list_data_items": 1,
+                    "list_functions": 1,
+                    "list_strings": 1
+                },
+                "total_tools": 8
+            }
+        }
     }
 }
