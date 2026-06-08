@@ -1,4 +1,15 @@
 {
+    "models": [
+        "big-pickle",
+        "deepseek-v4-flash",
+        "gpt-5.3-codex",
+        "gpt-5.4-mini",
+        "claude-haiku-4.5"
+    ],
+    "mcp": [
+        "radare2",
+        "GhidraMCP"
+    ],
     "tasks": [
         {
             "name": "simple-flag",

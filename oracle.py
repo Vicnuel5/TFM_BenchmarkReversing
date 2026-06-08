@@ -63,16 +63,6 @@ def start():
             "message": "Timer is already running. The server should have been reset."
         }), 400 
 
-    if {'model', 'mcp'} - set(request.args.keys()):
-        return jsonify({
-            "status": "error",
-            "message": "Missing required query parameters."
-        }), 400
-    
-    info = request.args.to_dict()
-    METADATA["mcp"] = info["mcp"]
-    METADATA["model"] = info["model"]
-
     TIME = time.time()
     
     return jsonify({
@@ -170,35 +160,51 @@ def __shutdown_server():
     print("[INFO] The test is over. Closing oracle...")
     os.kill(os.getpid(), signal.SIGINT)
 
-if __name__ == '__main__':
-
-    if len(sys.argv) < 2:
-        print("[ERROR] You must pass an argument when running the script.")
-        print("Examples:\n  python oracle.py 0\n  python oracle.py crackme")
-        sys.exit(1) 
-
-    with open(Path("./answers.json"), 'r') as file:
-        tasks = json.load(file).get("tasks", [])
-
-    arg = sys.argv[1]
-
+def __read_task(arg: str, data: list):
     if arg.isdigit():
         idx = int(arg)
-        if 0 <= idx < len(tasks):
-            task = tasks[idx]
-            ANSWER = task.get("answer")
-            METADATA["task"] = task.get("name")
+        if 0 <= idx < len(data):
+            task = data[idx]
+            ANSWER = task["answer"]
+            METADATA["task"] = task["name"]
         else:
             print(f"[ERROR] Index {idx} does not exist in the table.")
             sys.exit(1)
     else:
-        for task in tasks:
+        for task in data:
             if task["name"] == arg:
-                ANSWER = task.get("answer")
+                ANSWER = task["answer"]
                 METADATA["task"] = arg
                 break
         if not ANSWER:
             print(f"[ERROR] No task found named '{arg}'.")
             sys.exit(1)
+
+def __read_arg(arg: str, data: list, param: str):
+    if arg.isdigit():
+        arg = int(arg)
+    else:
+        arg = data.index(arg) if arg in data else -1
+    if 0 <= arg < len(data):
+        METADATA[param.lower()] = data[arg]
+    else:
+        print(f"[ERROR] {param} not found.")
+        sys.exit(1)
+
+if __name__ == '__main__':
+
+    if len(sys.argv) != 4:
+        print("[ERROR] You must pass 3 arguments when running the oracle.")
+        sys.exit(1) 
+
+    with open(Path("./benchmark_metadata.json"), 'r') as file:
+        metadata = json.load(file)
+
+    __read_task(sys.argv[1], metadata["tasks"])
+    __read_arg(sys.argv[2], metadata["mcp"], "MCP")
+    __read_arg(sys.argv[3], metadata["models"], "Model")
+
+    print(f"[INFO] The oracle is about to start.")
+    print(f"[INFO] Evaluating: {METADATA["task"]} | {METADATA["mcp"]} | {METADATA["model"]}")
 
     app.run(host='0.0.0.0', port=5000)
