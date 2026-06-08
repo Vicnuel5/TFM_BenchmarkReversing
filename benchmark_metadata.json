@@ -53,6 +53,13 @@
             "answer": {
                 "key": "RAR-AAA-ZAZ-KAK-OAO-MAM"
             }
+        },
+        {
+            "name": "rsa-crackme",
+            "binary_name": "Crack_It",
+            "answer": {
+                "password": "C0d3r_9O_Crack!T"
+            }
         }
     ]
 }
