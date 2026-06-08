@@ -81,8 +81,12 @@ def process_tools():
         for tool in stdout.splitlines():
             count[tool] += 1 
 
+    clean_tools()
     return __process_logs(count)
 
+def clean_tools():
+    subprocess.run(["powershell.exe", "-File", ".\\clean_tools.ps1"])
+    
 if __name__ == "__main__":
     print(process_tools())
 

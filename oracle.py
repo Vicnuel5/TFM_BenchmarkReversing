@@ -10,6 +10,7 @@ from pathlib import Path
 
 from process_logs import process_comns
 from process_logs import process_tools
+from process_logs import clean_tools
 
 app = Flask(__name__)
 
@@ -63,6 +64,8 @@ def start():
             "message": "Timer is already running. The server should have been reset."
         }), 400 
 
+
+    clean_tools()
     TIME = time.time()
     
     return jsonify({
@@ -161,6 +164,8 @@ def __shutdown_server():
     os.kill(os.getpid(), signal.SIGINT)
 
 def __read_task(arg: str, data: list):
+    global ANSWER
+
     if arg.isdigit():
         idx = int(arg)
         if 0 <= idx < len(data):
@@ -206,5 +211,6 @@ if __name__ == '__main__':
 
     print(f"[INFO] The oracle is about to start.")
     print(f"[INFO] Evaluating: {METADATA["task"]} | {METADATA["mcp"]} | {METADATA["model"]}")
+    print(f"[INFO] Answer: {ANSWER}")
 
     app.run(host='0.0.0.0', port=5000)
