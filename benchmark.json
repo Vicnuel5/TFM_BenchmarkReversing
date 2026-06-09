@@ -2000,6 +2000,41 @@
                     "xrefs_to": 19
                 },
                 "total_tools": 101
+            },
+            "deepseek-v4-flash": {
+                "date": "10/06/2026 00:21:23",
+                "success": false,
+                "resolved": true,
+                "tokens": "64,929",
+                "cost": "$0.00",
+                "attempts": {
+                    "14:37": "{'password': 'CWYZDVYNGWLKL2X8WKFAQQ'}"
+                },
+                "comns": {
+                    "grep": 1,
+                    "head": 1,
+                    "pip3": 1,
+                    "python3": 33,
+                    "strings": 2,
+                    "tail": 1,
+                    "timeout": 11,
+                    "wc": 1
+                },
+                "total_comns": 51,
+                "tools": {
+                    "decompile_function": 13,
+                    "disassemble": 8,
+                    "disassemble_function": 3,
+                    "list_all_strings": 1,
+                    "list_functions": 2,
+                    "list_sections": 1,
+                    "list_strings": 3,
+                    "list_symbols": 2,
+                    "open_file": 1,
+                    "show_info": 1,
+                    "xrefs_to": 1
+                },
+                "total_tools": 36
             }
         }
     }
