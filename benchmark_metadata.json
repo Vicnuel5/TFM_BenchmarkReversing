@@ -60,6 +60,13 @@
             "answer": {
                 "password": "C0d3r_9O_Crack!T"
             }
+        },
+        {
+            "name": "tempname",
+            "binary_name": "crackme",
+            "answer": {
+                "password": "CWYZDVYNGWLKL2X8WKFAQQ"
+            }
         }
     ]
 }

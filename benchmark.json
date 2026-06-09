@@ -1966,5 +1966,41 @@
                 "total_tools": 13
             }
         }
+    },
+    "tempname": {
+        "radare2": {
+            "gpt-5.4-mini": {
+                "date": "09/06/2026 23:09:25",
+                "success": false,
+                "resolved": false,
+                "tokens": "159,384",
+                "cost": "$0.83",
+                "attempts": {
+                    "12:53": "{'password': 'crackme'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "python3": 4,
+                    "rg": 1,
+                    "strings": 1
+                },
+                "total_comns": 7,
+                "tools": {
+                    "analyze": 1,
+                    "decompile_function": 26,
+                    "disassemble": 17,
+                    "disassemble_function": 25,
+                    "list_entrypoints": 1,
+                    "list_functions": 3,
+                    "list_imports": 1,
+                    "list_strings": 5,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1,
+                    "xrefs_to": 19
+                },
+                "total_tools": 101
+            }
+        }
     }
 }
