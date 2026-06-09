@@ -136,7 +136,7 @@ def guess():
     LOG["attempts"][message["spent_time"]] = str(guess)
 
     if not message["continue"]:
-        threading.Timer(0.5, __shutdown_server).start()
+        threading.Thread(target=__shutdown_server).start()
   
     return jsonify(message), 200
 
@@ -144,11 +144,12 @@ def __shutdown_server():
     global BLOCKED
     BLOCKED = True
 
-    LOG["tokens"] = input("[INPUT] Tokens consumed: ")
-    LOG["cost"] = input("[INPUT] Total cost: ")
+    print("[INFO] Oracle closed. Processing logs...")
+    LOG["date"] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     LOG["comns"], LOG["total_comns"] = process_comns()
     LOG["tools"], LOG["total_tools"] = process_tools()
-    LOG["date"] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    LOG["tokens"] = input("[INPUT] Tokens consumed: ")
+    LOG["cost"] = input("[INPUT] Total cost: ")
 
     file_path = Path("./benchmark.json")
     with open(file_path, "r") as file:
