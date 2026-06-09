@@ -1970,36 +1970,35 @@
     "tempname": {
         "radare2": {
             "gpt-5.4-mini": {
-                "date": "09/06/2026 23:09:25",
+                "date": "10/06/2026 00:38:25",
                 "success": false,
                 "resolved": false,
-                "tokens": "159,384",
-                "cost": "$0.83",
+                "tokens": "123,591",
+                "cost": "$0.51",
                 "attempts": {
-                    "12:53": "{'password': 'crackme'}"
+                    "08:31": "{'password': '2VVYDXYB5MDU797FSDVS7V'}"
                 },
                 "comns": {
-                    "objdump": 1,
-                    "python3": 4,
-                    "rg": 1,
+                    "file": 1,
+                    "python3": 3,
+                    "rg": 9,
                     "strings": 1
                 },
-                "total_comns": 7,
+                "total_comns": 14,
                 "tools": {
-                    "analyze": 1,
-                    "decompile_function": 26,
-                    "disassemble": 17,
-                    "disassemble_function": 25,
+                    "decompile_function": 30,
+                    "disassemble": 10,
+                    "disassemble_function": 12,
                     "list_entrypoints": 1,
-                    "list_functions": 3,
+                    "list_functions": 4,
+                    "list_functions_tree": 1,
                     "list_imports": 1,
-                    "list_strings": 5,
+                    "list_strings": 3,
                     "list_symbols": 1,
                     "open_file": 1,
-                    "show_info": 1,
-                    "xrefs_to": 19
+                    "xrefs_to": 5
                 },
-                "total_tools": 101
+                "total_tools": 69
             },
             "deepseek-v4-flash": {
                 "date": "10/06/2026 00:21:23",
