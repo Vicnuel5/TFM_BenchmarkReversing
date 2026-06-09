@@ -62,7 +62,7 @@
             }
         },
         {
-            "name": "tempname",
+            "name": "derived-password-hash",
             "binary_name": "crackme",
             "answer": {
                 "password": "CWYZDVYNGWLKL2X8WKFAQQ"
