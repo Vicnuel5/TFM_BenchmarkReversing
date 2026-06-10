@@ -67,6 +67,13 @@
             "answer": {
                 "password": "CWYZDVYNGWLKL2X8WKFAQQ"
             }
+        },
+        {
+            "name": "packed-crackme",
+            "binary_name": "CrackMe_packed",
+            "answer": {
+                "password": "CCCCCChCCCCiCM&CCCCCCCGCCCCCCX#CCKCCC9CCCCCCCCCCCCCCCCCCCCmVC*CC"
+            }
         }
     ]
 }
