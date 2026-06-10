@@ -2096,6 +2096,39 @@
                     "open_file": 1
                 },
                 "total_tools": 47
+            },
+            "claude-haiku-4.5": {
+                "date": "10/06/2026 13:22:41",
+                "success": false,
+                "resolved": false,
+                "tokens": "47,690",
+                "cost": "$0.15",
+                "attempts": {
+                    "00:59": "{'password': '9D45HMCAAABE'}",
+                    "01:01": "{'password': 'PWS39GCAAAVF'}",
+                    "01:22": "{'password': '79PKC2CAAAGE'}"
+                },
+                "comns": {
+                    "cat": 3,
+                    "file": 1,
+                    "grep": 1,
+                    "head": 1,
+                    "python": 3,
+                    "radare2": 1,
+                    "strings": 1
+                },
+                "total_comns": 11,
+                "tools": {
+                    "decompile_function": 6,
+                    "list_all_strings": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 2,
+                    "list_strings": 2,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 16
             }
         }
     }
