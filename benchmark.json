@@ -2034,6 +2034,37 @@
                     "xrefs_to": 1
                 },
                 "total_tools": 36
+            },
+            "big-pickle": {
+                "date": "10/06/2026 13:06:23",
+                "success": false,
+                "resolved": false,
+                "tokens": "106,623",
+                "cost": "$0.00",
+                "attempts": {
+                    "10:36": "{'password': 'RALT6KFPGXJBJ8469TDSQQ'}"
+                },
+                "comns": {
+                    "cat": 4,
+                    "head": 3,
+                    "python3": 8,
+                    "r2": 9
+                },
+                "total_comns": 24,
+                "tools": {
+                    "analyze": 1,
+                    "decompile_function": 9,
+                    "disassemble": 9,
+                    "disassemble_function": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 3,
+                    "list_sections": 1,
+                    "list_strings": 3,
+                    "open_file": 1,
+                    "show_info": 2,
+                    "xrefs_to": 3
+                },
+                "total_tools": 35
             }
         }
     }
