@@ -2065,6 +2065,37 @@
                     "xrefs_to": 3
                 },
                 "total_tools": 35
+            },
+            "gpt-5.3-codex": {
+                "date": "10/06/2026 13:15:52",
+                "success": false,
+                "resolved": false,
+                "tokens": "87,385",
+                "cost": "$0.69",
+                "attempts": {
+                    "04:59": "{'password': 'PBA8ZDLD7S6TY6EJ496SCV'}",
+                    "06:10": "{'password': 'WGY7JMKNH2ASUPJUTHGSA9'}"
+                },
+                "comns": {
+                    "objdump": 1,
+                    "python3": 3,
+                    "rg": 1,
+                    "strings": 1
+                },
+                "total_comns": 6,
+                "tools": {
+                    "decompile_function": 13,
+                    "disassemble": 12,
+                    "disassemble_function": 9,
+                    "list_all_strings": 2,
+                    "list_decompilers": 1,
+                    "list_functions": 2,
+                    "list_functions_tree": 1,
+                    "list_strings": 4,
+                    "list_symbols": 2,
+                    "open_file": 1
+                },
+                "total_tools": 47
             }
         }
     }
