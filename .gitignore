@@ -1,7 +1,6 @@
 __pycache__/
 .vscode/
 .venv/
-bin/
 prmopts/
 process_benchmark.py
 process_cost.py

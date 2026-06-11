@@ -49,35 +49,35 @@
         },
         {
             "name": "secret-key",
-            "binary_name": "razkom_v1",
+            "binary_name": "razkom_v1.exe",
             "answer": {
                 "key": "RAR-AAA-ZAZ-KAK-OAO-MAM"
             }
         },
         {
             "name": "rsa-crackme",
-            "binary_name": "Crack_It",
+            "binary_name": "Crack_It.exe",
             "answer": {
                 "password": "C0d3r_9O_Crack!T"
             }
         },
         {
             "name": "derived-password-hash",
-            "binary_name": "crackme",
+            "binary_name": "crackme.exe",
             "answer": {
                 "password": "CWYZDVYNGWLKL2X8WKFAQQ"
             }
         },
         {
             "name": "packed-crackme",
-            "binary_name": "CrackMe_packed",
+            "binary_name": "CrackMe_packed.exe",
             "answer": {
                 "password": "CCCCCChCCCCiCM&CCCCCCCGCCCCCCX#CCKCCC9CCCCCCCCCCCCCCCCCCCCmVC*CC"
             }
         },
         {
             "name": "derived-username",
-            "binary_name": "crackmepls",
+            "binary_name": "crackmepls.exe",
             "answer": {
                 "password": "-17147161"
             }
