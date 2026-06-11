@@ -2587,5 +2587,111 @@
                 "total_tools": 28
             }
         }
+    },
+    "derived-username": {
+        "radare2": {
+            "big-pickle": {
+                "date": "11/06/2026 21:05:17",
+                "success": true,
+                "resolved": true,
+                "tokens": "42,918",
+                "cost": "$0.00",
+                "attempts": {
+                    "02:23": "{'password': '-17147161'}"
+                },
+                "comns": {
+                    "cat": 1,
+                    "python3": 3
+                },
+                "total_comns": 4,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 2,
+                    "list_entrypoints": 1,
+                    "list_functions": 1,
+                    "list_strings": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 9
+            },
+            "deepseek-v4-flash": {
+                "date": "11/06/2026 20:46:47",
+                "success": true,
+                "resolved": true,
+                "tokens": "59,024",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:36": "{'password': '231911086823'}",
+                    "02:16": "{'password': '4277820135'}",
+                    "04:21": "{'password': '-17147161'}"
+                },
+                "comns": {
+                    "python3": 6
+                },
+                "total_comns": 6,
+                "tools": {
+                    "decompile_function": 2,
+                    "disassemble_function": 2,
+                    "list_all_strings": 1,
+                    "list_functions": 1,
+                    "list_strings": 2,
+                    "list_symbols": 1,
+                    "open_file": 1,
+                    "show_info": 1
+                },
+                "total_tools": 11
+            }
+        },
+        "GhidraMCP": {
+            "big-pickle": {
+                "date": "11/06/2026 21:15:46",
+                "success": true,
+                "resolved": true,
+                "tokens": "54,117",
+                "cost": "$0.00",
+                "attempts": {
+                    "01:10": "{'password': '4277820135'}",
+                    "04:11": "{'password': '-17147161'}"
+                },
+                "comns": {
+                    "python3": 3
+                },
+                "total_comns": 3,
+                "tools": {
+                    "decompile_function": 7,
+                    "disassemble_function": 2,
+                    "get_function_xrefs": 1,
+                    "list_strings": 1,
+                    "search_functions_by_name": 1
+                },
+                "total_tools": 12
+            },
+            "deepseek-v4-flash": {
+                "date": "11/06/2026 21:24:00",
+                "success": false,
+                "resolved": false,
+                "tokens": "70,672",
+                "cost": "$0.00",
+                "attempts": {
+                    "00:56": "{'password': '4277820135'}",
+                    "05:26": "{'password': '231911086823'}"
+                },
+                "comns": {
+                    "ls": 1,
+                    "python3": 6,
+                    "rg": 1
+                },
+                "total_comns": 8,
+                "tools": {
+                    "decompile_function_by_address": 26,
+                    "disassemble_function": 2,
+                    "list_data_items": 1,
+                    "list_strings": 2,
+                    "search_functions_by_name": 1
+                },
+                "total_tools": 32
+            }
+        }
     }
 }
